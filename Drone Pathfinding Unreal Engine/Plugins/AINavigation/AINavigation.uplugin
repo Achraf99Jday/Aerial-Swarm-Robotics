@@ -1,0 +1,29 @@
+{
+	"FileVersion" : 3,	
+	"FriendlyName" : "P-ANDROIDE AI",
+	"Version" : 10,
+	"VersionName" : "1.10",
+	"EngineVersion" : "4.27.0",
+	"Category" : "AI Navigation",
+	"CreatedBy" : "Achraf Jday & Rida Taleb",
+	"Description" : "This plugin is a solution for 3D pathfinding for drones made for our P-ANDROIDE project. 
+	It supports dynamic collision updates and comes with a behavior tree task 'Fly to' which you may directly use in your behavior trees.
+	Also provided is an API with pathfinding functions for custom navigation queries",	
+	"CanContainContent" : true,
+	"EnabledByDefault" : true,
+	"Modules" :
+	[
+		{
+			"Name" : "DonAINavigation",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64",
+				"Win32",
+				"Linux"
+			]
+		}
+	]
+}
+
